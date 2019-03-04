@@ -9,7 +9,7 @@
 // ==/UserScript==
 
 var width = 1400;
-GM_addStyle ( `
+GM_addStyle (`
     .listings #content{width: ${width}px !important}
     .listings #maru{max-width: ${width}px !important; min-width: ${width}px !important}
     .listings #sidebar{display: none !important}
